@@ -132,6 +132,15 @@
     background-color: #008b45;
     color: white;
 }
+#cart-btn #cart-totalQuantity {
+    font-weight: bold;
+    font-size: smaller;
+    padding: 1px 3px;
+    background-color: red;
+    border-radius: 5px;
+    position: relative;
+    bottom:3px;
+}
 
 
 
