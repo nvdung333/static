@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
-    animation: Transition 0.55s;
-}
+body { animation: Transition 0.5s; }
+#content { animation: Transition 0.9s; }
 
 @keyframes Transition {
     from {
-        opacity: 0.5;
+        opacity: 0;
     }
     to {
         opacity: 1;
@@ -115,6 +114,7 @@ body {
     background: #cd9b1d;
     width: 50%;
 }
+
 
 #product-container {
     padding-top: 12px;
