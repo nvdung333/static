@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    animation: Transition 0.55s;
+}
+
+@keyframes Transition {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 #ontopsticky {
     box-shadow: 2px 1px 5px;
