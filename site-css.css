@@ -236,8 +236,8 @@ body { animation: Transition 0.5s; }
     padding-bottom: 15px;
 }
 #cart-site-container #cart-site-cont-shp a {
-    background: #eee8cd;
-    color: #8b8878;
+    border: 1px solid #8b8b7a;
+    color: #8b864e;
     font-weight:bold;
 }
 #cart-site-box {
