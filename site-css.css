@@ -215,9 +215,14 @@ body { animation: Transition 0.5s; }
     color: darkgoldenrod;
 }
 #cart-site-table #cart-site-thead {
-    background: #eeeed1;
+    background: #8b8b7a;
 }
 #cart-site-table #cart-site-thead tr {
+    font-size: large;
+    color: #ffffe0;
+}
+#cart-site-table #cart-site-tbody-name {
+    font-weight: bold;
     font-size: large;
 }
 #cart-site-table #cart-site-tbody-price {
