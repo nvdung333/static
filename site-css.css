@@ -209,14 +209,21 @@ body { animation: Transition 0.5s; }
     padding-bottom: 12px;
 }
 #cart-site-container #cart-site-title {
-    font-size: xx-large;
-    font-weight: bold;
-    padding-bottom: 12px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #8b864e;
     color: #8b864e;
 }
+#cart-site-container #cart-site-title #cart-site-title-main {
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 3px;
+}
+#cart-site-container #cart-site-title #cart-site-title-sub {
+    font-size: small;
+    margin-bottom: 3px;
+}
 #cart-site-container #cart-site-table {
-    margin-top: 22px;
+    margin-top: 34px;
 }
 #cart-site-container #cart-site-table td {
     border-color: darkkhaki;
@@ -266,6 +273,10 @@ body { animation: Transition 0.5s; }
     color: #8b864e;
     font-weight:bold;
 }
+#cart-site-container #cart-site-opt #cart-site-opt-continue:hover {
+    background-color: #8b864e;
+    color: #ffffe0;
+}
 #cart-site-box {
     background: #f5f5dc;
     padding: 5px;
@@ -300,24 +311,39 @@ body { animation: Transition 0.5s; }
     padding-bottom: 12px;
 }
 #payment-container #payment-title {
-    font-size: xx-large;
-    font-weight: bold;
-    padding-bottom: 12px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #8b864e;
     color: #8b864e;
 }
+#payment-container #payment-title #payment-title-main {
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 3px;
+}
+#payment-container #payment-title #payment-title-sub {
+    font-size: small;
+    margin-bottom: 3px;
+}
 #payment-container #payment-form {
-    margin-top: 25px;
+    margin-top: 34px;
 }
 #payment-container #payment-form #payment-form-left {
-    padding: 12px 15px 0 0;
+    padding-right: 12px;
 }
-#payment-form-left input {
+#payment-form-left input, #payment-form-left select {
     background-color: #ffffea;
+}
+#payment-form-left #payment-form-opt-return {
+    border: 1px solid #8b8b7a;
+    color: #8b864e;
+    font-weight:bold;
+}
+#payment-form-left #payment-form-opt-return:hover {
+    background-color: #8b864e;
+    color: #ffffe0;
 }
 #payment-container #payment-form #payment-form-right {
     background-color: #f3f4bc;
-    margin-top: 12px;
     padding: 19px 12px;
 }
 #payment-form-right #payment-form-right-title {
