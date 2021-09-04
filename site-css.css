@@ -225,7 +225,7 @@ body { animation: Transition 0.5s; }
     margin-bottom: 3px;
 }
 #cart-site-container #cart-site-title #cart-site-title-sub {
-    font-size: small;
+    font-size: 91%;
     margin-bottom: 3px;
 }
 #cart-site-container #cart-site-table {
@@ -330,7 +330,7 @@ body { animation: Transition 0.5s; }
     margin-bottom: 3px;
 }
 #payment-container #payment-title #payment-title-sub {
-    font-size: small;
+    font-size: 91%;
     margin-bottom: 3px;
 }
 #payment-container #payment-form {
