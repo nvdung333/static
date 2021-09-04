@@ -111,8 +111,11 @@ body { animation: Transition 0.5s; }
 #home-content #home-content-link a {
     border: 1px solid #8b6914;
     color: #ffffe0;
-    background: #cd9b1d;
+    background-color: #cd9b1d;
     width: 50%;
+}
+#home-content #home-content-link a:hover {
+    background-color: #8b6914;
 }
 
 
@@ -192,6 +195,9 @@ body { animation: Transition 0.5s; }
     width: 100%;
     background-color: #008b45;
     color: white;
+}
+#cart-btn a:hover {
+    background-color: #006432;
 }
 #cart-btn #cart-btn-totalQuantity {
     font-weight: bold;
@@ -300,9 +306,12 @@ body { animation: Transition 0.5s; }
 }
 #cart-site-box-proceed a {
     width: 100%;
-    background: green;
+    background-color: green;
     color: #fff8dc;
     font-weight:bold;
+}
+#cart-site-box-proceed a:hover {
+    background-color: #005500;
 }
 
 
@@ -333,12 +342,13 @@ body { animation: Transition 0.5s; }
 #payment-form-left input, #payment-form-left select {
     background-color: #ffffea;
 }
-#payment-form-left #payment-form-opt-return {
+#payment-form-left #payment-form-opt-return a {
+    margin-bottom: 12px;
     border: 1px solid #8b8b7a;
     color: #8b864e;
     font-weight:bold;
 }
-#payment-form-left #payment-form-opt-return:hover {
+#payment-form-left #payment-form-opt-return a:hover {
     background-color: #8b864e;
     color: #ffffe0;
 }
@@ -372,6 +382,9 @@ body { animation: Transition 0.5s; }
     font-weight: bold;
     color: white;
     width: 100%;
+}
+#payment-form-right #payment-form-right-submit button:hover {
+    background-color: #005522
 }
 
 
